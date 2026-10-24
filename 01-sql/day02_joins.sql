@@ -8,3 +8,12 @@ SELECT Movies.Title, Boxoffice.Domestic_sales, Boxoffice.International_sales FRO
 -- 3. List all the movies by their ratings in descending order
 SELECT  Movies.Title, Rating FROM Movies INNER JOIN Boxoffice ON Movies.id = Boxoffice.Movie_id ORDER BY Rating DESC;
 
+
+-- SQL Lesson 7: OUTER JOINs
+-- 1. Find the list of all buildings that have employees
+SELECT DISTINCT Building FROM Employees;
+
+-- 2. Find the list of all buildings and their capacity
+SELECT * FROM Buildings;
+
+--3. List all buildings and the distinct employee roles in each building (including empty buildings)
