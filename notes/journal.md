@@ -9,3 +9,9 @@
 - Built: 01-sql/day02_joins.sql with Lesson 6 queries
 - Blocked: Nothing, INNER JOIN syntax makes sense
 - Next: SQL LEFT JOINs (Lesson 7) and aggregations
+
+## 2026-10-29 (Thu)
+- Learned: Luke Barousse Module 1. Database schemas (Star Schema), Comparison/Logical operators, Wildcards (%, _), Arithmetic operators, and Aggregations (GROUP BY, HAVING, MEDIAN).
+- Built: 00_database_setup.sql, 01_module1_practice_queries.sql, database_schema.md, and module1 notes.
+- Blocked: Nothing today. The "Friendly SQL" alias quirks in DuckDB vs Postgres were interesting to learn.
+- Next: Module 1.7 (CTEs) and Module 1.8 (JOINs across dimensions).
